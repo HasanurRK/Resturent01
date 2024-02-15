@@ -1,0 +1,182 @@
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background: #24a19c;
+
+    padding: 0% 1%;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+   
+}
+
+.logo{
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: rgb(243, 145, 145);
+    border-radius: 50%;
+    text-decoration: none;
+   
+}
+
+
+.nav ul li{
+    display: inline-block;
+    display: block;
+   
+}
+.nav ul li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    line-height: 70px;
+    display: inline-block;
+   margin: 10px;
+}
+
+
+
+
+
+
+
+
+.row{
+    width: 100%;
+}
+.row::after{
+    clear: both;
+    content: '';
+    display: block;
+}
+
+[class*="col-"]{
+    float: left;
+    padding: 15px;
+}
+[class*=""]{
+    width: 100%;
+}
+
+
+/* main-section start */
+
+#banner-section{
+    background-image: url("banner.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.banner-containts{
+    padding: 50px 20px  ;
+    text-align: center;
+}
+
+.banner-containts h1{
+    width: 100%;
+    margin: 15px auto;
+    padding: 10px;
+    font-size: 3rem;
+    color: antiquewhite;
+    background: rgba(110, 150, 236, 2);
+    border-radius: 15px;
+}
+
+.banner-containts p{
+    width: 500px;
+
+    margin: 15px auto;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    background-color: aqua;
+    background: rgba(150, 150, 236, 2);
+    border-radius: 15px;
+}
+
+.order{
+    width: 200px;
+    padding: 20px;
+    margin: 15px;
+    font-size: 1.5rem;
+    border: none;
+    text-transform: uppercase;
+    background: rgb(18, 233, 133, 2);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    font-weight: bold;
+    transition: .4s;
+}
+.order:hover{
+    width: 200px;
+
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    text-transform: uppercase;
+    background: rgb(18, 233, 133, 2);
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    font-weight: bold;
+    transform: scale(1.5);
+}
+
+/* about-us start */
+.about-us{
+    text-align: center;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+.para{
+    margin: 15px;
+    text-align: center;
+    font-size: 1.7rem;
+}
+/* about-us end */
+
+/* contact start */
+#contact{
+    padding: 1%;
+    background: #6e41d8;
+    color: aliceblue;
+    text-align: center;
+}
+.map{
+    width: 100%;
+    height: 250px;
+}
+.phone a{
+    color: aliceblue;
+}
+
+.phone a:hover{
+    color: rgb(230, 162, 162);
+}
+/* contact end */
+
+/* footer start */
+
+.foot{
+    background: rgb(20, 5, 105);
+    color: aliceblue;
+
+}
+.foot p{
+    margin-left: 30px;
+}
+/* footer end */
+
+
+
